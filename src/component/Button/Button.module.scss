@@ -1,0 +1,61 @@
+.btn{
+    min-width: 100px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.filter{
+    border: 1px solid #000;
+    margin: 10px 5px;
+    padding: 0 10px;
+    &:hover{
+        transition: all 0.2s ease;
+        color: #fff;
+        background-color: #000;
+    }
+}
+.buy{
+    border: 1px solid #000;
+    height: 40px;
+    border-radius: 10px 0 10px 0;
+    margin-top: 10px;
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease;
+        color: #fff;
+        background-color: #000;
+    }
+}
+.add{
+    color: #d0011b;
+    border: 1px solid #d0011b;
+    background-color: rgba(208,1,27,.08);
+    padding: 0 30px;
+    font-weight: 300;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 3%);
+    margin: 20px;
+    &:hover{
+        background: rgba(241,180,187,.1628);
+        transition: all .2s ease;
+    }
+}
+.buyInPrd{
+    background-color: #d0011b;
+    color: #fff;
+    width: 200px;
+    min-width: 100px;
+    &:hover{
+        opacity: 0.9;
+        transition: all .2s ease;
+    }
+}
+.quantity{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.09);
+    cursor: pointer;
+}

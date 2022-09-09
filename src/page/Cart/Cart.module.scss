@@ -1,0 +1,68 @@
+.cart{
+    position: relative;
+}
+.listItem{
+    margin-top: 20px;
+    padding: 0 100px;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.itemDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    margin-left: 30px;
+    width: 550px;
+}
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    font-size: 30px;
+    color: #ee4d2d;
+    &:hover{
+        font-size: 28px;
+        transition: all 0.2s ease
+    }
+}
+.quatityBtn{
+    display: flex;
+    height: 30px;
+    margin-left: 300px;
+}
+.btn{
+    width: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.09);
+    cursor: pointer;
+}
+.value{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,.09);
+}
+.checkout{
+    position: fixed;
+    bottom: 0;
+    padding: 0 52px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    right: 20px;
+}
+.total{
+    align-items: center;
+}
+.total span{
+    color: #ee4d2d;
+    width: 100%;
+    font-size: 24px;
+    margin-right: 20px;
+}
