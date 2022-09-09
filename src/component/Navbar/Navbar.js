@@ -45,9 +45,6 @@ export default function Navbar() {
             <NavLink to="/" className={cx("navItem")}>
               Home
             </NavLink>
-            <NavLink to="/products" className={cx("navItem")}>
-              Products
-            </NavLink>
             <NavLink to="/about" className={cx("navItem")}>
               About
             </NavLink>

@@ -1,0 +1,89 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 870px;
+    max-height: 660px;
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+}
+.formTitle{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.formText{
+    width: 75%;
+    font-style: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.value{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    margin: 10px 0;
+    font-size: 16px;
+    &:focus{
+        outline: none;
+    }
+}
+textarea{
+    resize: none;
+}
+.input span{
+    width: 20px;
+}
+.bigValue{
+    width: 620px;
+    height: 30px;
+    margin: 10px 0;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #dee2e6;
+    &:focus{
+        outline: none;
+    }
+}
+.input{
+    display: flex;
+}
+.big{
+    height: 100px !important;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.icon{
+    margin-right: 10px;
+    width: 30px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg");
+}
+.empty{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 300px;
+    padding: 0 10px;
+    min-height: 300px;
+}
+.title{
+    text-align: center;
+}
+.back:hover{
+    transition: all 0.2s ease;
+    transform: scale(1.2);
+}
