@@ -18,7 +18,7 @@ export default function Products() {
   const [data, setData] = useState(products);
 
   useEffect(() => {
-    axios.get(`http://fakestoreapi.com/products`).then((res) => {
+    axios.get(`https://fakestoreapi.com/products`).then((res) => {
       setProducts(res.data);
       setData(res.data);
     });
