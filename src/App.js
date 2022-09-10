@@ -7,7 +7,6 @@ import Contact from "./page/Contact/Contact"
 import About from "./page/About/About"
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
 function App() {
   return (
     <div className="App">
