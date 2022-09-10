@@ -1,0 +1,3 @@
+[submodule "shopping.github.io"] 
+  path = shopping.github.io 
+  url = https://github.com/VuDance/shoppingweb.git
