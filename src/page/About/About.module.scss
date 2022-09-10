@@ -1,0 +1,45 @@
+.container{
+    padding: 20px 52px;
+    display: flex;
+}
+.container p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+.back{
+    padding: 10px 0px;
+    font-size: 20px;
+    width: 100px;
+    color: #4a90e2;
+    &:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease;
+
+    }
+}
+.local{
+    margin-top: 10px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+.local span{
+    margin-left: 10px;
+}
+.follow{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.title{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.follow a{
+    height: 45px;
+    margin-right: 10px;
+}
+.back span{
+    margin-left: 10px;
+}
