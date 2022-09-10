@@ -5,6 +5,9 @@ import { Routes, Route} from "react-router-dom";
 import Cart from "./page/Cart/Cart";
 import Contact from "./page/Contact/Contact"
 import About from "./page/About/About"
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 function App() {
   return (
     <div className="App">
